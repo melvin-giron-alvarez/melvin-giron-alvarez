@@ -10,7 +10,13 @@ const Name = () => {
     const smallWidth = () => {
         var viewportWidth = window.innerWidth;
         if (viewportWidth < 480) {
-            setSmallW(true);
+            if (window.scrollY > 40) {
+                setSmallW(true);
+                setSlide(false); 
+            } else {
+                setSmallW(true);
+                setSlide(false); 
+            }
         } else {
             setSmallW(false);
         }
@@ -91,11 +97,11 @@ return (
             <div className="w-auto flex justify-end z-[100]">
                 <div className={`cursor-default z-[100] fixed pt-2 pr-2 tracking-tighter leading-none inter-bold text-center uppercase mix-blend-difference text-dimteal`} >
                     {"MELVIN".split("").map((child, idx) => (
-                        <span className='hoverText cursor-pointer w-full text-[2.3em] sm:text-[4em]' key={idx}>
+                        <span className={`hoverText cursor-pointer w-full ${slide === true ? ' text-[2.3em]' : ' text-[3.65em]'}`} key={idx}>
                             {child}
                         </span>
                     ))}
-                    <h1 className='w-full text-[1.2em] sm:text-[2.4em]'>GIRON ALVAREZ</h1>
+                    <h1 className={`w-full ${slide === true ? ' text-[1.1em]' : ' text-[1.8em]'}`}>GIRON ALVAREZ</h1>
                 </div>
             </div>
         </> 
