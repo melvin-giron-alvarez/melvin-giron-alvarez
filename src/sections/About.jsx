@@ -23,7 +23,7 @@ return (
             <p data-aos="fade-up" className='leading-none w-[80%] md:w-[75%]'>Hello! I am a Frontend Web Developer passionate about building visually appealing web applications. I aim to showcase my problem-solving skills and design expertise while collaborating with talented developers to enhance my long-term proficiency.</p>
             <div>
             <p data-aos="fade-up" className='leading-none w-[75%]'>University of California, Irvine</p>
-            <p data-aos="fade-up" className='w-[75%]'>[  2021 - Ongoing  |  B.A. Business Economics  ]</p>
+            <p data-aos="fade-up" className='w-[75%]'>[  Expected June 2025  |  B.A. Business Economics  ]</p>
             </div>
         </div>
         <Skills />

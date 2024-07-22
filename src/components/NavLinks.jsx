@@ -4,13 +4,13 @@ const navlinks = [
     { id: '#ABOUT', text: 'ABOUT'},
     { id: '#WORKS', text: 'WORKS'},
     { id: '#CONTACT', text: 'CONTACT'},
-    { id: 'https://docs.google.com/document/d/1WuZ8ljJSl0o7QZ94-_PVBmi8PmTFGXsRER69ETMItMA/edit?usp=sharing', text: 'RESUME', target: '_blank', rel: 'noopener noreferrer'}
+    { id: 'https://docs.google.com/document/d/e/2PACX-1vTbYP8y3MuoAEkk5TUaKWlZmepRVWZRUA10r4VNaf2uNxrm8BR0hvZKVhNKzn_5zEs1frN3IoMHI9EH/pub', text: 'RESUME', target: '_blank', rel: 'noopener noreferrer'}
 ]
 
 
 const NavLinks = () => {
 return (
-    <div className='absolute w-[200px] sm:w-[400px] flex flex-wrap items-center left-0 right-0 mx-auto mt-[14em] md:ml-[4.5em]'>
+    <div className='absolute w-[200px] sm:w-[400px] flex flex-wrap items-center left-0 right-0 mx-auto mt-[15em] md:ml-[4.5em]'>
         {navlinks.map((links) => (
             <a key={links.id} target={links.target}
                 href={links.id} rel={links.rel}
