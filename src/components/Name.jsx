@@ -95,9 +95,9 @@ return (
     {smallW === true ? 
         <>
             <div className="w-auto flex justify-end z-[100]">
-                <div className={`cursor-default z-[100] fixed pt-2 pr-2 tracking-tighter leading-none inter-bold text-center uppercase mix-blend-difference text-dimteal`} >
+                <div className={`${animating ? 'slide-right' : ''} cursor-default z-[100] fixed pt-2 pr-2 tracking-tighter leading-none inter-bold text-center uppercase mix-blend-difference text-dimteal`} >
                     {"MELVIN".split("").map((child, idx) => (
-                        <span className={`hoverText cursor-pointer w-full ${slide === true ? ' text-[2.3em]' : ' text-[3.65em]'}`} key={idx}>
+                        <span className={`hoverText cursor-pointer w-full ${slide === true ? ' text-[2.4em]' : ' text-[3.85em]'}`} key={idx}>
                             {child}
                         </span>
                     ))}

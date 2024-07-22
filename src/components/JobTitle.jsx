@@ -22,7 +22,7 @@ const JobTitle = () => {
     };
 
 return (
-    <div className='absolute left-0 right-0 mx-auto flex w-[95%] flex-wrap-reverse px-3 items-center justify-between pt-[7.3em] sm:pt-[4.5em] md:pt-[5.5em] lg:pt-[8.7em] text-dimteal mix-blend-difference cursor-default'>
+    <div className='absolute left-0 right-0 mx-auto flex w-[95%] flex-wrap-reverse px-3 items-center justify-between pt-[8em] sm:pt-[4.5em] md:pt-[5.5em] lg:pt-[8.7em] text-dimteal mix-blend-difference cursor-default'>
         <div className='inter-bold text-[.8em] sm:text-[1.2em] mr-4'>{formatTime(time)}</div>
         <div className='roboto leading-none justify-end items-center sm:flex space-x-4'>
             <h2 className='text-[1.6em] sm:text-[1.3em] md:text-[2em] text-right'>FRONTEND WEB DEVELOPER</h2>

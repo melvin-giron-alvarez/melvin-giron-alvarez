@@ -10,7 +10,7 @@ const navlinks = [
 
 const NavLinks = () => {
 return (
-    <div className='absolute w-[200px] sm:w-[400px] flex flex-wrap items-center left-0 right-0 mx-auto mt-[15em] md:ml-[4.5em]'>
+    <div className='absolute w-[200px] sm:w-[400px] flex flex-wrap items-center left-0 right-0 mx-auto mt-[15.5em] md:ml-[4.5em]'>
         {navlinks.map((links) => (
             <a key={links.id} target={links.target}
                 href={links.id} rel={links.rel}
